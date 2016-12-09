@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  name: MyString
+  description: MyText
+  image: MyString
+  original_price: 1.5
+  offer_price: 1.5
+  end_time: MyString
+  is_available: false
+
+two:
+  user: two
+  name: MyString
+  description: MyText
+  image: MyString
+  original_price: 1.5
+  offer_price: 1.5
+  end_time: MyString
+  is_available: false
