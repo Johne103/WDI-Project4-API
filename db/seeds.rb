@@ -48,15 +48,15 @@ Tag.create!([{
 }])
 
 Product.create!([{
-  name: "Bread",
-  description: "Hovis Soft White Medium Bread 800g",
-  image: "url",
-  original_price: 0.90,
-  offer_price: 0.20,
-  end_time: "00:00:00",
-  is_available: true,
-  quantity: 5,
-  user: users[0]
+    name: "Bread",
+    description: "Hovis Soft White Medium Bread 800g",
+    image: "url",
+    original_price: 0.90,
+    offer_price: 0.20,
+    end_time: "00:00:00",
+    is_available: true,
+    quantity: 5,
+    user: users[0]
   },{
     name: "Bread",
     description: "Warburton Toastie Sliced White Bread 800g",
