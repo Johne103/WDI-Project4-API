@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161209125613) do
+ActiveRecord::Schema.define(version: 20161214110821) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,6 +53,11 @@ ActiveRecord::Schema.define(version: 20161209125613) do
     t.float    "latitude"
     t.float    "longitude"
     t.boolean  "is_store"
+    t.string   "open_from"
+    t.string   "open_until"
+    t.string   "website"
+    t.string   "phone_number"
+    t.string   "icon"
   end
 
   add_foreign_key "products", "users"
