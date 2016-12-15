@@ -135,10 +135,10 @@ Wheat Flour (with added Calcium, Iron, Niacin, Thiamin), Water, Yeast, Soya Flou
     image: "http://img.tesco.com/Groceries/pi/131/5010003000131/IDShot_540x540.jpg",
     original_price: 0.90,
     offer_price: 0.20,
-    end_time: "12/16/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 5,
-    user: users[3]
+    user: users[5]
   },{
     name: "Bread: Warburton Toastie Sliced White Bread 800g",
     description: "Ingredients:
@@ -146,10 +146,10 @@ Wheat Flour [with Calcium, Iron, Niacin (B3) and Thiamin (B1)], Water, Yeast , S
     image: "http://img.tesco.com/Groceries/pi/121/5010044000121/IDShot_540x540.jpg",
     original_price: 1.00,
     offer_price: 0.30,
-    end_time: "12/18/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 2,
-    user: users[3]
+    user: users[6]
   },{
     name: "Bread: Tesco White Toastie Thick 800g",
     description: "Tngredients:
@@ -157,10 +157,10 @@ Wheat Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin, Thiamin), Water, Yeas
     image: "http://img.tesco.com/Groceries/pi/672/5054268870672/IDShot_540x540.jpg",
     original_price: 0.50,
     offer_price: 0.10,
-    end_time: "12/19/2016",
+    end_time: Date.new(2016, 12, 19),
     is_available: true,
     quantity: 2,
-    user: users[3]
+    user: users[7]
   },{
     name: "Bread: Hovis Wholemeal Medium Bread 800g",
     description: "Ingredients:
@@ -168,7 +168,7 @@ Wholemeal Flour (Wheat), Water, Caramelised Sugar, Yeast, Wheat Protein, Soya Fl
     image: "http://img.tesco.com/Groceries/pi/339/5010003000339/IDShot_540x540.jpg",
     original_price: 0.90,
     offer_price: 0.20,
-    end_time: "12/19/2016",
+    end_time: Date.new(2016, 12, 19),
     is_available: true,
     quantity: 2,
     user: users[4]
@@ -187,7 +187,7 @@ Contains vegetables extracts and sweeteners
     image: "http://img.tesco.com/Groceries/pi/988/5449000601988/IDShot_540x540.jpg",
     original_price: 1.66,
     offer_price: 1.20,
-    end_time: "12/16/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 10,
     user: users[4]
@@ -198,7 +198,7 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     image: "http://img.tesco.com/Groceries/pi/659/0000003249659/IDShot_540x540.jpg",
     original_price: 1.50,
     offer_price: 0.20,
-    end_time: "12/17/2016",
+    end_time: Date.new(2016, 12, 17),
     is_available: true,
     quantity: 6,
     user: users[4]
@@ -209,7 +209,7 @@ To ripen pears, place in a fruit bowl at room temperature. To test ripeness, gen
     image: "http://img.tesco.com/Groceries/pi/598/0000003249598/IDShot_540x540.jpg",
     original_price: 1.29,
     offer_price: 0.20,
-    end_time: "12/17/2016",
+    end_time: Date.new(2016, 12, 17),
     is_available: true,
     quantity: 2,
     user: users[4]
@@ -220,10 +220,10 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     image: "http://img.tesco.com/Groceries/pi/833/0000003249833/IDShot_540x540.jpg",
     original_price: 2.50,
     offer_price: 0.50,
-    end_time: "12/16/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 2,
-    user: users[3]
+    user: users[4]
   },{
     name: "Fresh Fruit: Bananas loose",
     description: "Storage:
@@ -232,10 +232,10 @@ For maximum freshness, store in a cool dry place. Do not refrigerate.
     image: "http://img.tesco.com/Groceries/pi/000/0261480000000/IDShot_540x540.jpg",
     original_price: 0.13,
     offer_price: 0.05,
-    end_time: "12/19/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 12,
-    user: users[3]
+    user: users[4]
   },{
     name: "Fresh Fruit: Red Seedless Grapes 500g",
     description: "Storage:
@@ -243,10 +243,10 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     image: "http://img.tesco.com/Groceries/pi/140/0000010066140/IDShot_540x540.jpg",
     original_price: 2.00,
     offer_price: 0.50,
-    end_time: "12/18/2016",
+    end_time: Date.new(2016, 12, 18),
     is_available: true,
     quantity: 2,
-    user: users[3]
+    user: users[8]
   },{
     name: "Doughnuts, Cookies & Muffins: Jam Doughnuts 5 pack",
     description: "Ingredients:
@@ -257,10 +257,10 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: No nuts.",
     image: "http://img.tesco.com/Groceries/pi/000/0286180000000/IDShot_540x540.jpg",
     original_price: 0.65,
     offer_price: 0.10,
-    end_time: "12/20/2016",
+    end_time: Date.new(2016, 12, 20),
     is_available: true,
     quantity: 3,
-    user: users[3]
+    user: users[9]
   },{
     name: "Doughnuts, Cookies & Muffins: Milk Chocolate Cookie 5 pack",
     description: "Ingredients:
@@ -271,7 +271,7 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: Before being pre
     image: "http://img.tesco.com/Groceries/pi/000/0289610000000/IDShot_540x540.jpg",
     original_price: 1.00,
     offer_price: 0.20,
-    end_time: "12/21/2016",
+    end_time: Date.new(2016, 12, 21),
     is_available: true,
     quantity: 3,
     user: users[4]
@@ -284,7 +284,7 @@ Wheat Flour, Sugar, Water, Rapeseed Oil, Blueberry (13%), Pasteurised Whole Egg,
     image: "http://img.tesco.com/Groceries/pi/000/0286210000000/IDShot_540x540.jpg",
     original_price: 1.00,
     offer_price: 0.10,
-    end_time: "12/16/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 3,
     user: users[4]
@@ -299,7 +299,7 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: Before being pre
     image: "http://img.tesco.com/Groceries/pi/000/0288270000000/IDShot_540x540.jpg",
     original_price: 1.30,
     offer_price: 0.30,
-    end_time: "12/18/2016",
+    end_time: Date.new(2016, 12, 18),
     is_available: true,
     quantity: 1,
     user: users[4]
@@ -315,10 +315,10 @@ Store in a cool dry place",
     image: "http://img.tesco.com/Groceries/pi/577/5000221506577/IDShot_540x540.jpg",
     original_price: 2.75,
     offer_price: 1.50,
-    end_time: "12/16/2016",
+    end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 3,
-    user: users[4]
+    user: users[9]
   }])
 
 
