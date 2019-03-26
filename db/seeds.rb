@@ -24,6 +24,19 @@ users = User.create!([{
   address: "25 Hayton Close, Luton, LU3 4HD",
 	is_store: false
 },{
+  username: "Iceland",
+  email: "help@iceland.co.uk",
+  password: "password",
+  password_confirmation: "password",
+  store_name: "Iceland, Park St, Luton",
+	image: "http://google.localdataimages.com/800_WM/2325/23252954.jpg",
+	address: "51/61 Park Street, Luton, LU1 3JX",
+	is_store: true,
+  open_from: "08:00",
+  open_until: "21:00",
+  website: "https://groceries.iceland.co.uk/special-offers",
+  phone_number: "01582 736357"
+},{
   username: "Sainsbury's Local, Mansell St",
   email: "sainsbury1@example.com",
   password: "password",
@@ -138,7 +151,7 @@ Wheat Flour (with added Calcium, Iron, Niacin, Thiamin), Water, Yeast, Soya Flou
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 5,
-    user: users[5]
+    user: users[4]
   },{
     name: "Bread: Warburton Toastie Sliced White Bread 800g",
     description: "Ingredients:
@@ -149,7 +162,7 @@ Wheat Flour [with Calcium, Iron, Niacin (B3) and Thiamin (B1)], Water, Yeast , S
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 2,
-    user: users[6]
+    user: users[4]
   },{
     name: "Bread: Tesco White Toastie Thick 800g",
     description: "Tngredients:
@@ -160,7 +173,7 @@ Wheat Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin, Thiamin), Water, Yeas
     end_time: Date.new(2016, 12, 19),
     is_available: true,
     quantity: 2,
-    user: users[7]
+    user: users[4]
   },{
     name: "Bread: Hovis Wholemeal Medium Bread 800g",
     description: "Ingredients:
