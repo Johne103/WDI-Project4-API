@@ -134,9 +134,9 @@ users = User.create!([{
 Tag.create!([{
   category: "Bread"
 },{
-  category: "Doughnuts, cookies & Muffins"
+  category: "Cake"
 },{
-  category: "Fresh fruit"
+  category: "Fruit"
 },{
   category: "Drink"
 }])
@@ -151,7 +151,8 @@ Wheat Flour (with added Calcium, Iron, Niacin, Thiamin), Water, Yeast, Soya Flou
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 5,
-    user: users[4]
+    user: users[4],
+    category: "Bread"
   },{
     name: "Bread: Warburton Toastie Sliced White Bread 800g",
     description: "Ingredients:
@@ -162,7 +163,8 @@ Wheat Flour [with Calcium, Iron, Niacin (B3) and Thiamin (B1)], Water, Yeast , S
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 2,
-    user: users[4]
+    user: users[4],
+    category: "Bread"
   },{
     name: "Bread: Tesco White Toastie Thick 800g",
     description: "Tngredients:
@@ -173,7 +175,8 @@ Wheat Flour (Wheat Flour, Calcium Carbonate, Iron, Niacin, Thiamin), Water, Yeas
     end_time: Date.new(2016, 12, 19),
     is_available: true,
     quantity: 2,
-    user: users[4]
+    user: users[4],
+    category: "Bread"
   },{
     name: "Bread: Hovis Wholemeal Medium Bread 800g",
     description: "Ingredients:
@@ -184,7 +187,8 @@ Wholemeal Flour (Wheat), Water, Caramelised Sugar, Yeast, Wheat Protein, Soya Fl
     end_time: Date.new(2016, 12, 19),
     is_available: true,
     quantity: 2,
-    user: users[4]
+    user: users[4],
+    category: "Bread"
   },{
     name:  "Drink: Coca Cola Coke 1.75l",
     description: "Sparkling Low Calorie Soft Drink with Vegetable Extracts with Sweeteners
@@ -203,7 +207,8 @@ Contains vegetables extracts and sweeteners
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 10,
-    user: users[4]
+    user: users[4],
+    category: "Drink"
   },{
     name: "Fresh Fruit: Gala Apple, minimum 5 pack",
     description: "Storage:
@@ -214,7 +219,8 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     end_time: Date.new(2016, 12, 17),
     is_available: true,
     quantity: 6,
-    user: users[4]
+    user: users[4],
+    category: "Fruit"
   },{
     name: "Fresh Fruit: Conference Pears Pack 610g",
     description: "Storage:
@@ -225,7 +231,8 @@ To ripen pears, place in a fruit bowl at room temperature. To test ripeness, gen
     end_time: Date.new(2016, 12, 17),
     is_available: true,
     quantity: 2,
-    user: users[4]
+    user: users[4],
+    category: "Fruit"
   },{
     name: "Fresh Fruit: Pink Lady Apples minimum 5 pack 670g",
     description: "Storage:
@@ -236,7 +243,8 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 2,
-    user: users[4]
+    user: users[4],
+    category: "Fruit"
   },{
     name: "Fresh Fruit: Bananas loose",
     description: "Storage:
@@ -248,7 +256,8 @@ For maximum freshness, store in a cool dry place. Do not refrigerate.
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 12,
-    user: users[4]
+    user: users[4],
+    category: "Fruit"
   },{
     name: "Fresh Fruit: Red Seedless Grapes 500g",
     description: "Storage:
@@ -259,7 +268,8 @@ For maximum freshness, best kept refrigerated. Wash before use.",
     end_time: Date.new(2016, 12, 18),
     is_available: true,
     quantity: 2,
-    user: users[8]
+    user: users[8],
+    category: "Fruit"
   },{
     name: "Doughnuts, Cookies & Muffins: Jam Doughnuts 5 pack",
     description: "Ingredients:
@@ -273,7 +283,8 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: No nuts.",
     end_time: Date.new(2016, 12, 20),
     is_available: true,
     quantity: 3,
-    user: users[9]
+    user: users[9],
+    category: "Cake"
   },{
     name: "Doughnuts, Cookies & Muffins: Milk Chocolate Cookie 5 pack",
     description: "Ingredients:
@@ -287,7 +298,8 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: Before being pre
     end_time: Date.new(2016, 12, 21),
     is_available: true,
     quantity: 3,
-    user: users[4]
+    user: users[4],
+    category: "Cake"
   },{
     name: "Doughnuts, Cookies & Muffins: BlueBerry Muffins 4 pack",
     description: "Ingredients:
@@ -300,7 +312,8 @@ Wheat Flour, Sugar, Water, Rapeseed Oil, Blueberry (13%), Pasteurised Whole Egg,
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 3,
-    user: users[4]
+    user: users[4],
+    category: "Cake"
   },{
     name: "Doughnuts, Cookies & Muffins: M & M Cookies 4 pack",
     description: "Ingredients:
@@ -315,7 +328,8 @@ Recipe: No nuts.Ingredients: Cannot guarantee nut free.Factory: Before being pre
     end_time: Date.new(2016, 12, 18),
     is_available: true,
     quantity: 1,
-    user: users[4]
+    user: users[4],
+    category: "Cake"
   },{
     name: "Doughnuts, Cookies & Muffins: Cadbury Chocolate Mini Rolls 12 pac",
     description: "ngredients:
@@ -331,7 +345,8 @@ Store in a cool dry place",
     end_time: Date.new(2016, 12, 16),
     is_available: true,
     quantity: 3,
-    user: users[9]
+    user: users[9],
+    category: "Cake"
   }])
 
 
